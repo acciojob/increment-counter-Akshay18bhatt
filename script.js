@@ -5,7 +5,7 @@ let button= document.getElementById("incrementBtn");
 button.addEventListener("click", onclicking);
 
 function onclicking() {
-	alert(p.innerText);
+	alert(Number(p.innerText));
 	
 	p.innerText++;
 	
